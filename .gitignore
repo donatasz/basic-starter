@@ -1,0 +1,22 @@
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# node-waf configuration
+.lock-wscript
+
+#Webstorm metadata
+.idea
+
+#dist folder
+dist
+
+# Mac files
+.DS_Store
+
+# Logs
+logs
+*.log
